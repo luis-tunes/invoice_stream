@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "TIN": {
+            "type": "string",
+            "minLength": 9,
+            "maxLength": 9
+        },
+        "Items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "VAT Rate": {"type": "string"},
+                    "VAT Value": {"type": "number"},
+                    "Price without VAT": {"type": "number"},
+                    "Price with VAT": {"type": "number"},
+                    "Description": {"type": "string"}
+                },
+                "required": ["VAT Rate", "VAT Value", "Price without VAT", "Price with VAT"]
+            }
+        }
+    },
+    "required": ["TIN", "Items"]
+}

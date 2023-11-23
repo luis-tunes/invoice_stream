@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "handy-buttress-405813",
+  "private_key_id": "4dc4c454f1ee995284e9d227b453d1e500142d7b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJaf8kVX3rPJRz\n7UQSmH7L3eGvmJWN4NwlgZFEOMCgl3648IVrhlnPBdQRw7anyBIJAXPB10XdZvxD\nuJyK/SHvR+dZerHfGFi7bTY5IdotOWFdgcm9z/KF6RAy7rTVkRf8Hqm2rTvkuF7n\nfafkH+mEE3k+7xvu7Vkcjp4gnW1XEpdrO7LulfNOtZUirzeeQfcH95fGH3nfqJQj\nF8ghojyIQ9e7m7aaMo/yVMaRlprccnjJYQaP4WjnNeY1sQik/jcOQ9cerSusU3Y3\nGiaHeYNc4eFaYsQ2Y0wz8I+wBS4TrSewY1h0MsdjuyYVj4lAXuL5LSG7T/V+c+jo\nF0aCGWCTAgMBAAECggEAEU267rstiI0kJTAoHf+Ikn6AdMkuErSpFSEkLXFBaJ/l\n8iuFEC9y/cHUGKabcEn+9VPGRyFLI5yaZZMHApCBXtZAPkQNOKEV1nGpK+Vdohmr\nj2X8GAOKeWNZfJayEHsDotRbjjx5yHTn1Ql1krgEeXqsJZz95bFHFkNREHTrP4Sh\nV9aa8kJkKKX6YXE0SlwSgpR5NjrHiE+BuDQfBxX5Sdlv3tXdp4RtM4GgvR0z/dV7\n/0wGySQlc3ggOBjjHfSDGH4FbJ4M/KoQWDZYC/Di9GUUBYvnq8pr4zV0ROtPgDzk\nFsKvkGo+R9SI6nHB/FqMSXoanrA6QkCME/jXSaS2MQKBgQDpLpMfoFv/+iCs1a+X\nZc8/CuyrwJtiX/cpeSmLjkFu9A9nm1hSg1QPaWI7eP8AL5Syk/4PgErZEE18Bv94\nr+q1mq0ir6Z7VtVpBr9Cps09ne16NuflM09aJ9wDvuj0WipVKcaxpiOQHz17kG/k\n0nN/qhBivPCI/bTAiPCiQZI4+QKBgQDdH5tWv5PxZ15veSLzlUrdRdpTfWpeIwcI\nEnA/2uoVkBRpM9d1PmCNqcC25Lsj5WBldmt+gJ/qoFHuC2u2t+iFXI+4wSKIgHUU\nKcqfoeJ5nLNdXWjXPFVEb9YwM2Qyh+r9ZyDETx8c+9OFbymI5qiBdAO4F4nkstDY\nS0j9C1C06wKBgDcyEB9HXR+dfIiM2FCVB9abZmRNZjqGDsJhbMUc+j4iRVc3/VMi\nxQ4U2uzK+kl3+dG/mD7hFlaFNmIqYeSWd49fOqZgP58occG3mCRVyXVRYboxLvkh\nCSKFFt5IHWphwW2BQwggFIDz9CDAksvuSOqqPdCxeppiu5trjtJJhSw5AoGBAK9r\nPpmAHAaboZA/glnI6v5FRyGK0hJiKVbfAcu2iJOYnIilBt1NId3geDDfnhKpCmMT\noc1WjwbcLoLw7n+iwETkHGROW238smTPjp47F+awSJ7d1qlBhMdpDXtpmah4qRRk\ndtslhaJBqRknCcVAbxdbiQPHMK6MqR+eAgY0rs8HAoGAZJ9Y02wDDRxma9kCjUEw\niTxfTFtpySHVt2g34k0nVsQL0N2FmT2Fo+pSH9uq3W/VX0IhW1KFqJDZzdMDKlnT\nCLaWKV/+PovJsPoFCY4eQQpMZ9pVRWFHhIn7L2BXy8gEWBUPitVnifts4IbYsDjv\n5oFiRmTlEHNdHKWMDuF4jW4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "invoice-vision@handy-buttress-405813.iam.gserviceaccount.com",
+  "client_id": "101329317163442276921",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/invoice-vision%40handy-buttress-405813.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
