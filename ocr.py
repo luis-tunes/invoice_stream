@@ -1,6 +1,9 @@
 import os
 from google.cloud import vision
+from dotenv import load_dotenv
 from error_handlers import handle_vision_errors
+
+load_dotenv()
 
 class Ocr:
     def __init__(self, path):
@@ -10,7 +13,6 @@ class Ocr:
     @property
     def client(self):
         if self._client is None:
-            os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'key.json'
             self._client = vision.ImageAnnotatorClient()
         return self._client
 
