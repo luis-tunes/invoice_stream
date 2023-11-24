@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from llm import OpenAi
 from ocr import Ocr
 
+import secrets as st
+
 def process_invoice(invoice_image_path, schema_path, prompts_path):
     try:
         llm = OpenAi().gpt
@@ -33,9 +35,12 @@ def process_invoice(invoice_image_path, schema_path, prompts_path):
 if __name__ == "__main__":
     load_dotenv()
     logging.basicConfig(level=logging.INFO)
-    invoice_image_path = os.getenv('INVOICE_IMAGE_PATH')
-    schema_path = os.getenv('SCHEMA_PATH')
-    prompts_path = os.getenv('PROMPTS_PATH')
+    invoice_image_path = st.secrets["INVOICE_IMAGE_PATH"]
+    # invoice_image_path = os.getenv('INVOICE_IMAGE_PATH')
+    schema_path = st.secrets['SCHEMA_PATH']
+    # schema_path = os.getenv('SCHEMA_PATH')
+    prompts_path = st.secrets['PROMPTS_PATH']
+    # prompts_path = os.getenv('PROMPTS_PATH')
 
     response = process_invoice(invoice_image_path, schema_path, prompts_path)
     if response:

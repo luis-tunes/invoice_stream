@@ -4,6 +4,8 @@ from langchain.chat_models import ChatOpenAI
 from dotenv import load_dotenv
 from ocr import handle_vision_errors
 
+import streamlit as st
+
 class OpenAi:
     """
     Provides a lazy initialization wrapper around the ChatOpenAI model.
@@ -21,7 +23,8 @@ class OpenAi:
     def initialize_model(self):
         return ChatOpenAI(
             temperature = 0,
-            api_key = os.getenv('OPENAI_API_KEY'),
+            api_key = st.secrets["OPENAI_API_KEY"],
+            # api_key = os.getenv('OPENAI_API_KEY'),
             model = 'gpt-3.5-turbo',
         )
     
