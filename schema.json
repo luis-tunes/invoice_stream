@@ -9,6 +9,10 @@
         "Total Price with VAT": {
             "type": "number"
         },
+        "Currency": {
+            "type": "string",
+            "default": "EUR"
+        },
         "Date": {
             "type": "string",
             "format": "date-time"

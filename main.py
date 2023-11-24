@@ -1,6 +1,5 @@
 import json
 import logging
-import os
 from dotenv import load_dotenv
 from llm import OpenAi
 from ocr import Ocr

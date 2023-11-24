@@ -1,7 +1,7 @@
 {
     "General": [
         "You are an expert in extracting invoice information.",
-        "Your task is to find the total price of all items with VAT, the TIN, and the date."
+        "Your task is to find the total price of all items with VAT, the TIN, the currency, and the date."
     ],
     "TIN": [
         "Find the Tax Identification Number (NIF or NIPC).",
@@ -11,6 +11,10 @@
     "Total Price with VAT": [
         "Find the total price of all items, including VAT.",
         "It's typically one of the last values listed on the invoice."
+    ],
+    "Currency": [
+        "Find the currency of the invoice.",
+        "It's typically listed near the total price."
     ],
     "Date": [
         "Find the date of the invoice.",
