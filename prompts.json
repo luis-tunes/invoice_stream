@@ -1,36 +1,19 @@
 {
     "General": [
         "You are an expert in extracting invoice information.",
-        "Your task is to find the VAT rate, VAT value, Price without VAT, Price with VAT, and Description for each item.",
-        "Remember, VAT value + Price without VAT = Price with VAT.",
-        "Do not calculate any values, only extract them from the invoice text.",
-        "Ensure each item's values are correctly associated and not mixed up."
+        "Your task is to find the total price of all items with VAT, the TIN, and the date."
     ],
     "TIN": [
         "Find the Tax Identification Number (NIF or NIPC).",
         "It's a 9-digit number, possibly starting with 'A'.",
         "It's usually at the start of the invoice and always has exactly 9 characters."
     ],
-    "Items": {
-        "VAT Rate": [
-            "Find the VAT or IVA rate for each item.",
-            "It's a percentage, usually followed by a % symbol."
-        ],
-        "VAT Value": [
-            "Find the VAT or IVA value for each item.",
-            "This is the monetary amount of the VAT."
-        ],
-        "Price without VAT": [
-            "Find the price of each item excluding VAT.",
-            "It's typically listed before the price with VAT."
-        ],
-        "Price with VAT": [
-            "Find the total price of each item, including VAT.",
-            "It's typically one of the last values listed for the item."
-        ],
-        "Description": [
-            "Find the description of each item.",
-            "It's usually in all caps and lacks punctuation."
-        ]
-    }
+    "Total Price with VAT": [
+        "Find the total price of all items, including VAT.",
+        "It's typically one of the last values listed on the invoice."
+    ],
+    "Date": [
+        "Find the date of the invoice.",
+        "It may also include the time."
+    ]
 }
